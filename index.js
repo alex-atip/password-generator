@@ -12,7 +12,6 @@ let passwordTwoEl = document.getElementById("password-two")
 mainBtEl.addEventListener("click", function() {
   passwordOneEl.value = getPassword(15)
   passwordTwoEl.value = getPassword(15)
-
 })
 
 function getPassword(len) {
@@ -21,11 +20,3 @@ function getPassword(len) {
     return characters[password]
   }).join('')
 }
-
-/*
--gerar 2 passwords
--deve ter 15 chars cada input
--add um copy-on-click em cada input
--fazer um toggle symbols and numbers on/off
-
-*/
