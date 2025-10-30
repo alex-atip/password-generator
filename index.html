@@ -1,9 +1,50 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <h1></h1>
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <div class="container">
+      
+      <div class="content">
+        <h1 id="main-text">
+          <span id="span-text"> Generate a </span>
+          random password
+        </h1>
+        <p>Never use an insecure password again.</p>
+        <button id="main-btn">Generate passwords</button>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="password-containers">
+        <input 
+          type="text" 
+          id="password-one" 
+          aria-label="Senha gerada 1"
+          value="" 
+          autocomplete="off" 
+          spellcheck="false" 
+          readonly
+        >
+        <input 
+          type="text" 
+          id="password-two" 
+          aria-label="Senha gerada 2"
+          value="" 
+          autocomplete="off" 
+          spellcheck="false" 
+          readonly
+        >
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
