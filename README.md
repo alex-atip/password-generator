@@ -1,6 +1,6 @@
 # 🔐 Password Generator – Scrimba Solo Project
 
-<img width="1440" alt="Password Generator Preview" src="https://github.com/user-attachments/assets/9c42d8c1-d462-4e17-9c5e-93d82a69386c" />
+<img width="1440" height="778" alt="Image" src="https://github.com/user-attachments/assets/ba8056cb-65cc-4749-bae0-d577a2a8e7c1" />
 
 ## 🌐 Live Demo
 
